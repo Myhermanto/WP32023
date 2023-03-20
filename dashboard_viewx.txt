@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css" type="text/css" />
 
-
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 
 </head>
 
@@ -496,9 +496,8 @@
         </table>
 
     </div>
-    
-    
-    
+
+
     <!-- Modal Add -->
     <form action="/berita/save" method="post">
         <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -521,9 +520,6 @@
                             <label>Isi Berita</label>
                             <textarea class="form-control" placeholder="isi berita" name="isi"></textarea>
                         </div>
-
-              
-
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -534,8 +530,10 @@
         </div>
     </form>
     <!-- End Modal Add -->
-    
-    
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
